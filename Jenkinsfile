@@ -5,7 +5,7 @@ pipeline {
         stage ('Build Docker Image') {
             steps {
                 script {
-                    bat 'docker build -t shippingcontainer1/fe-devops .'
+                    bat 'docker build -t shippingcontainer1/docker-integration-fe .'
                 }
             }
         }
