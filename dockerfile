@@ -15,7 +15,7 @@
 # CMD ["nginx", "-g", "daemon off;"]
 
 
-FROM node:18-alpine
+FROM node:18-alpine as node
 
 WORKDIR /app
 
