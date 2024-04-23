@@ -67,7 +67,7 @@ function Home() {
 
         <div className='home-page-row'>
             <div className='company-name'>
-                Welcome to Company Name
+                Welcome to My House
             </div>
 
             <div className='about-text'>
